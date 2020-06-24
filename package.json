@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "cd examples && webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "start": "npm run dev",
+    "server": " cd server && node server.js",
+    "server:hot": "cd server && nodemon server.js",
+    "forever": "cd server && forever start server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "child_process": "^1.0.2",
+    "compression": "^1.7.3",
+    "express": "^4.16.2",
+    "js-base64": "^2.4.3",
+    "log4js": "^6.1.2",
+    "lyric-parser": "^1.0.1",
+    "serve-index": "^1.9.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "cluster": "^0.7.7",
+    "os": "^0.1.1",
+    "process": "^0.11.10"
+  }
+}

@@ -1,0 +1,9 @@
+.select{
+    line-height: 30px;
+}
+.select label{
+    text-align: right;
+    display: inline-block;
+    width: 160px;
+    margin-right: 20px;
+}

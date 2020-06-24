@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>聊天</title>
+</head>
+<body>
+    <div style="width: 600px; margin: 50px auto 0 auto;">
+        <div>
+            Name: <input type="text" id="username" value="">
+        </div>
+        <div>
+            Room: <input type="text" id="room" value=""> <button id="connect">connect</button>
+        </div>
+        <div>
+            <p>Content</p>
+            <div id="output" style="width: 300px;height: 300px; overflow-y: scroll;border: 1px solid #ccc;"></div>
+        </div>
+        <div>
+            <p>Input</p>
+            <div>
+                <input name="" id="input" size="50"></input>
+            </div>
+            <div><button disabled id="send">send</button></div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/socket.io-client@2/dist/socket.io.js"></script>
+<script src="./client.js"></script>
+</html>

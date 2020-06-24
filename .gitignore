@@ -1,0 +1,11 @@
+/target/
+.settings
+.project
+.classpath
+.idea
+/node_modules
+/dist
+npm-debug.log
+/.vscode
+.env.local
+.env.*.local

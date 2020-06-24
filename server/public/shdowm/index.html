@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title>Document</title>
+    <style>
+        .wapper {
+            width: 304px;
+            height: 69px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .button {
+            width: 300px;
+            height: 65px;
+            background: transparent;
+            border-radius: 39px;
+            border: 2px solid rgba(192, 192, 201, 1);
+            position: relative;
+            z-index: 2;
+            opacity: 0.8;
+        }
+
+        .mask {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 0;
+            width: 250px;
+            /* background: #FFB830; */
+            border-top: 69px solid #FFB830;
+            /* -webkit-clip-path: inset(25% 0 25% 0 round 0 25% 0 25%); */
+            clip-path: inset(0 0 0 0 round 39px 20px 39px 39px);
+            border-right: 37px solid transparent;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wapper">
+        <div class="button"></div>
+        <div class="mask"></div>
+    </div>
+
+</body>
+
+</html>

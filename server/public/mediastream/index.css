@@ -1,0 +1,25 @@
+.select{
+    line-height: 30px;
+}
+.select label{
+    text-align: right;
+    display: inline-block;
+    width: 160px;
+    margin-right: 20px;
+}
+
+.filter-none{
+    -webkit-filter: none;
+}
+.filter-blur{
+    -webkit-filter: blur(3px);
+}
+.filter-grayscale{
+    -webkit-filter: grayscale(1);
+}
+.filter-invert{
+    -webkit-filter: invert(1);
+}
+.filter-sepia{
+    -webkit-filter: sepia(1)
+}
